@@ -1,9 +1,9 @@
-#hero {
+.hero {
   background-color: rgb(220, 184, 220);
   padding-top: 4rem;
 }
 
-#galery {
+#project {
   background-color: rgb(220, 184, 220);
 }
 section {

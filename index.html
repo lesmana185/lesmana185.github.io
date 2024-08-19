@@ -13,10 +13,11 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <link
-      rel="stylesheet"
-      href="style.css"
-    />
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- my css -->
+    <link rel="stylesheet"href="style.css"/>
+
   </head>
   <body>
     <!-- Navbar -->
@@ -64,8 +65,8 @@
             <li class="nav-item">
               <a
                 class="nav-link text-white"
-                href="#galery"
-                >Gallery</a
+                href="#project"
+                >Project</a
               >
             </li>
             <li class="nav-item">
@@ -84,8 +85,7 @@
     <!-- hero -->
     <!-- <div class="container-fluid "> -->
     <section
-      id="hero"
-      class="text-center"
+      class="hero text-center"
     >
       <img
         class="rounded-circle img-thumbnail"
@@ -93,8 +93,8 @@
         src="img/pp2.jpg"
         alt="Portofolio pict"
       />
-      <h1 class="display-1">Ariel Ahmadi Lesmana</h1>
-      <h2 class="display-6">Mahasiswa</h2>
+      <h1 class="display-4">Ariel Ahmadi Lesmana</h1>
+      <h2 class="display-6"></h2>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 1440 320"
@@ -112,18 +112,18 @@
     <section id="about">
       <div class="container">
         <div class="row text-center mb-3 mt-2">
-          <div class="col">
+          <div class="col" data-aos="fade-up" data-aos-duration="1000">
             <h2>About Me</h2>
           </div>
         </div>
         <div class="row justify-content-center fs-5">
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-right" data-aos-duration="1000">
             <p>
               Saya mahasiswa STMIK DHARMA NEGARA dengan Prodi Teknik Informatika. Memiliki keahlian dalam Pengembangan Web Seperti HTML, CSS dan JavaScript Saya seorang mahasiswa mandiri, disiplin dan suka mempelajari hal yang baru, baik
               secara team ataupun individu
             </p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
             <p>
               <strong>Kenapa Programer?</strong> Programer adalah suatu profesi yang menarik untuk diminati karena sebagai Programer kita dilatih untuk berpikir logis dan meningkatkan pemikiran logika kita bukan hanya itu saja Programer
               juga melatih kita bersabar dan disiplin itu alasan saya menekuni untuk belajar untuk menjadi Programer dan posisi yang saya sukai adalah sebagai front end karena disana kita bisa menggunakan imajinasi kita untuk membuat Web
@@ -145,17 +145,18 @@
     </section>
     <!-- Akhir About -->
 
-    <!-- Gallery -->
-    <section id="galery">
+    <!-- project -->
+    <section id="project">
       <div class="container">
         <div class="row text-center mb-3 pt-2">
-          <div class="col">
-            <h2>Gallery</h2>
+          <div class="col" data-aos="fade-up" data-aos-duration="1000">
+            <h2>Project</h2>
           </div>
         </div>
         <div class="row justify-content-center">
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <a href="https://lesmana185.github.io/arielahmadilesmana/" target="_blank" class="text-decoration-none">
+            <div class="card" data-aos="flip-left" data-aos-duration="1000">
               <img
                 src="img/1.png"
                 class="card-img-top"
@@ -165,9 +166,11 @@
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
             </div>
+          </a>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <a href="https://lesmana185.github.io/Shop/" target="_blank" class="text-decoration-none">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="100">
               <img
                 src="img/5.png"
                 class="card-img-top"
@@ -177,9 +180,11 @@
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
             </div>
+          </a>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <a href="https://lesmana185.github.io/lesmana/" target="_blank" class="text-decoration-none">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="200">
               <img
                 src="img/6.png"
                 class="card-img-top"
@@ -189,9 +194,11 @@
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
             </div>
+            </a>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <a href="#" class="text-decoration-none">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="300">
               <img
                 src="img/3.jpeg"
                 class="card-img-top"
@@ -201,9 +208,11 @@
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
             </div>
+          </a>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <a href="#" class="text-decoration-none">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="400">
               <img
                 src="img/4.jpeg"
                 class="card-img-top"
@@ -213,6 +222,7 @@
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
             </div>
+          </a>
           </div>
         </div>
       </div>
@@ -229,7 +239,7 @@
       </svg>
     </section>
 
-    <!-- Akhir Gallery -->
+    <!-- Akhir project -->
 
     <!-- Contact -->
     <section id="contact">
@@ -293,7 +303,7 @@
                 <button class="btn btn-primary btn-loading d-none" type="button" disabled>
                   <span class="spinner-grow spinner-grow-sm" aria-hidden="true"></span>
                   <span role="status">Loading...</span>
-                </button
+                </button>
               </form>
             </div>
           </div>
@@ -335,6 +345,22 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+      });
+    </script>
+
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/TextPlugin.min.js"></script>
+<script>
+  gsap.registerPlugin(TextPlugin)
+  gsap.to('.display-6', { duration: 2, delay: 1.5, text: 'Mahasiswa' });
+  gsap.from('.navbar', { duration: 1.5, y: '-100%', opacity: 0, ease: 'bounce' });
+  gsap.from('.hero img', { duration: 1, rotateY: 360, opacity: 0 });
+  gsap.from('.display-4', { duration: 1, x: -50, opacity: 0, delay:0.5, ease: 'back' });
+</script>
 
 
     <script>
